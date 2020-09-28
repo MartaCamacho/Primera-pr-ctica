@@ -1,0 +1,39 @@
+header {
+    background-color: turquoise;
+    font-size: 25px;
+    font-weight: bold;
+    height: 50px;
+  }
+  nav{
+    background-color: salmon;
+    height: 50px;
+    font-weight: bold;
+  }
+  
+  article {
+    background-color: yellow;
+    width: 70%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .darkyellow {
+    background-color: gold;
+  }
+  
+  #aLaIzquierda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  aside{
+    width: 30%;
+    background-color: lightgrey;
+    font-weight: bold;
+  }
+  footer {
+    background-color: turquoise;
+    height: 50px;
+    display: flex;
+    align-items: bottom;
+  }
